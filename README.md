@@ -1,139 +1,116 @@
 # sports-committee-system
 Final_Exam
 
-🏀 Municipal of Sta. Cruz Sports Committee Program and Activity Monitoring System with Online Registration
-📌 Project Overview
-The Municipal of Sta. Cruz Sports Committee Program and Activity Monitoring System with Online Registration streamlines event tracking, registration, and administrative control for sports programs across the municipality. Built with PHP and MySQL, the system features a modern interface and robust backend security.
+# 🏀 Sports Committee System  
+**Final Exam Project**
 
-🔐 Security Notices
-We have implemented several security enhancements to protect against common vulnerabilities and ensure data integrity:
+## 📌 Project Overview  
+**Municipal of Sta. Cruz Sports Committee Program and Activity Monitoring System with Online Registration**
 
-Cross-Site Request Forgery (CSRF) Protection: All forms and state-changing requests use CSRF tokens validated server-side.
+This system streamlines event tracking, participant registration, and administrative tasks for sports programs across the municipality. Built with **PHP** and **MySQL**, it features a modern user interface and strong backend security.
 
-Session Management: Sessions use HTTP-only cookies with regeneration logic to prevent fixation attacks.
+## 🔐 Security Features  
+We’ve implemented several security measures to protect against common vulnerabilities and ensure data integrity:
 
-Input Validation and Sanitization: All user inputs are strictly validated and sanitized to prevent SQL Injection and XSS attacks.
+- **CSRF Protection**: All forms and state-changing requests are protected with server-validated CSRF tokens.  
+- **Session Management**: Uses HTTP-only cookies and session regeneration to prevent fixation attacks.  
+- **Input Validation & Sanitization**: All user inputs are validated and sanitized to prevent SQL Injection and XSS attacks.  
+- **Password Security**: Passwords are hashed using `password_hash()` with the Bcrypt algorithm.  
+- **Access Control**: Role-Based Access Control (RBAC) restricts access based on user roles.  
+- **Anti-Brute Force Mechanism**: Locks account after repeated failed login attempts, with time-based reset.  
+- **Error Handling**: Logs detailed errors on the server while displaying generic messages to users.  
+- **Secure File Uploads and QR Handling**: All file and QR data undergo strict validation and sanitization.
 
-Password Security: Passwords are hashed using password_hash() with the bcrypt algorithm.
+## 📣 Reporting Vulnerabilities  
+If you discover a security issue, please report it responsibly by contacting the project maintainer. Avoid public disclosure to ensure proper mitigation before exposure.
 
-Access Control: Role-based access control (RBAC) ensures restricted access based on user roles.
+## 🛠 Features  
+- ✅ Secure user authentication (login & sign-up)  
+- ✅ Role-based access control (RBAC)  
+- ✅ CSRF protection on all forms  
+- ✅ Secure session handling with HTTP-only cookies  
+- ✅ Anti-brute force login lockout mechanism  
+- ✅ Admin and user dashboards for events and registration  
+- ✅ Modern UI for better UX and accessibility  
+- ✅ SweetAlert2 integration for sleek alert dialogs  
+- ✅ Structured error handling and logging  
 
-Anti-Bruteforce Protection: Implements lockout after multiple failed login attempts and time-based reset logic.
+## 💻 Technologies Used  
+| Technology        | Purpose / Description                                |
+|-------------------|------------------------------------------------------|
+| PHP               | Server-side scripting for backend logic              |
+| MySQL             | Relational database for user, event, and activity data |
+| HTML, CSS, JS     | Core technologies for building responsive pages      |
+| Bootstrap         | Responsive UI framework                              |
+| SweetAlert2       | Enhanced alert and modal pop-ups                     |
+| Chart.js          | Data visualization for dashboards                    |
+| jQuery            | DOM manipulation and AJAX                            |
+| FontAwesome, Feather Icons | UI icons                                   |
+| XAMPP             | Local dev environment (Apache, MySQL, PHP)           |
+| Git & GitHub      | Version control and hosting                          |
+| VS Code           | Code editor                                          |
+| Postman           | API testing and simulation                           |
+| PHPUnit           | Backend unit testing                                 |
 
-Error Handling: Logs detailed errors server-side and displays generic messages to users to prevent information leakage.
+## 💡 How to Run the System on Another Computer
 
-Secure File Uploads and QR Handling: File uploads and QR data go through content validation and sanitization.
+1. **Clone or Download the Repository**  
+   ```bash
+   git clone https://github.com/EDMardoquio/MSCSUP-AMS
+   ```
+   Or download and extract the ZIP file.
 
-📣 Reporting Vulnerabilities
-If you discover a security vulnerability, please report it responsibly by contacting the project maintainer. Avoid public disclosure to help us secure the platform before widespread exposure.
+2. **Set Up the Environment**  
+   - Install **XAMPP** (includes Apache and MySQL)  
+   - Open your browser (Chrome, Firefox, etc.)  
+   - (Optional) Install **VS Code**  
 
-🛠 Features
-✅ User authentication with secure login and signup
+3. **Import the Database**  
+   - Start Apache and MySQL via XAMPP  
+   - Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)  
+   - Create a database: `sports_monitoring`  
+   - Import the `.sql` file from `/docs/` or `/database/`
 
-✅ Role-based access control (RBAC)
+4. **Move Project to `htdocs` Directory**  
+   - Place the project folder in:  
+     ```
+     C:\xampp\htdocs\
+     ```
 
-✅ CSRF protection on all forms
+5. **Configure Database Connection**  
+   Edit `/src/includes/db_config.php`:
+   ```php
+   $host = 'localhost';
+   $user = 'root';
+   $pass = '';
+   $dbname = 'sports_monitoring';
+   ```
 
-✅ Secure session handling with HTTP-only cookies
+6. **Launch the System**  
+   Navigate to:  
+   ```
+   http://localhost/your-project-folder/
+   ```
 
-✅ Anti-bruteforce login lockout mechanism
+7. **Default Logins (Optional)**  
+   - **Username**: `admin-123`  
+   - **Password**: `admin`  
 
-✅ Admin and user dashboards for event and registration tracking
+## 📂 Demo & Files  
+Google Drive Link (https://drive.google.com/drive/folders/1bh7N87Zipe1QafnVWIqMqerR6ET2OLrJ?usp=drive_link)
 
-✅ Updated user interface for improved UX and accessibility
-
-✅ Integration of SweetAlert2 for modern alert dialogs
-
-✅ Logging and structured error handling
-
-| Technology                 | Purpose / Description                                  |
-| -------------------------- | ------------------------------------------------------ |
-| PHP                        | Server-side scripting for backend logic                |
-| MySQL                      | Relational database for user, event, and activity data |
-| HTML, CSS, JS              | Core technologies for building responsive pages        |
-| Bootstrap                  | Responsive UI framework                                |
-| SweetAlert2                | Enhanced alert and modal pop-ups                       |
-| Chart.js                   | Data visualization for dashboards                      |
-| jQuery                     | DOM manipulation and AJAX                              |
-| FontAwesome, Feather Icons | UI icons                                               |
-| XAMPP                      | Local dev environment (Apache, MySQL, PHP)             |
-| Git & GitHub               | Version control and hosting                            |
-| VS Code                    | Code editor                                            |
-| Postman                    | API testing and simulation                             |
-| PHPUnit                    | Backend unit testing                                   |
-
-
-💡 How to Run the System on Another Computer
-1. Clone or Download the Repository
-bash
-git clone https://github.com/EDMardoquio/MSCSUP-AMS
-Or download and extract the ZIP file.
-
-2. Set Up Your Environment
-
-Install XAMPP (includes Apache and MySQL) Use a web browser (Chrome, Firefox, etc.)
-(Optional) Install Visual Studio Code (VS Code)
-
-3. Import the Database
-Start Apache and MySQL in XAMPP.
-
-Open http://localhost/phpmyadmin.
-
-Create a new database: sports_monitoring.
-
-Import the .sql file:
-
-Go to the Import tab.
-
-Upload the SQL file from /docs/ or /database/.
-
-Click Go.
-
-4. Move the Project to htdocs
-Place the project folder into:
-
-text
-C:\xampp\htdocs\
-5. Configure the Database Connection
-Edit the following file:
-
-text
-/src/includes/db_config.php
-Example:
-
-php
-$host = 'localhost';
-$user = 'root';
-$pass = '';
-$dbname = 'sports_monitoring';
-6. Launch the System
-In your browser, navigate to:
-
-text
-http://localhost/your-project-folder/
-7. Default Logins (Optional)
-
-Admin: admin-1234
-
-Password: admin
-
-📂 Link to Demo & Files
-Google Drive Link(https://drive.google.com/drive/folders/1bh7N87Zipe1QafnVWIqMqerR6ET2OLrJ?usp=drive_link)
-
-🧩 Folder Structure
-text
-📁 Docs         # SRS and supporting files
-📁 Ui old-new   # Old vs. new UI assets (if applicable)
-📁 src          # Main source code
-📄 README.md
+## 🧩 Folder Structure  
+```
+📁 Docs         # SRS and supporting documents  
+📁 Ui old-new   # Old vs. new UI designs  
+📁 src          # Main source code  
+📄 README.md  
 📄 Group-Name
-👥 Contributors
-👨‍💻 Erson D. Mardoquio – Lead Developer / Final Enhancements
+```
 
-👨‍💻 Angelo Sam Peralta Paulino – Backend & Security Integration
-
-👨‍💻 Kendall Siclon – UI Designer / Frontend Improvements
-
-👨‍💻 Wrandell Vergel de Dios – Database & Feature Testing
-
+## 👥 Contributors  
+- 👨‍💻 Erson D. Mardoquio – Lead Developer / Final Enhancements  
+- 👨‍💻 Angelo Sam Peralta Paulino – Backend & Security Integration  
+- 👨‍💻 Kendall Siclon – UI Designer / Frontend Improvements  
+- 👨‍💻 Wrandell Vergel de Dios – Database & Feature Testing  
 
