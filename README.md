@@ -70,10 +70,8 @@ git clone https://github.com/EDMardoquio/MSCSUP-AMS
 Or download and extract the ZIP file.
 
 2. Set Up Your Environment
-Install XAMPP (includes Apache and MySQL)
 
-Use a web browser (Chrome, Firefox, etc.)
-
+Install XAMPP (includes Apache and MySQL) Use a web browser (Chrome, Firefox, etc.)
 (Optional) Install Visual Studio Code (VS Code)
 
 3. Import the Database
