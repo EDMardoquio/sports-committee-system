@@ -46,21 +46,23 @@ If you discover a security vulnerability, please report it responsibly by contac
 
 ✅ Logging and structured error handling
 
-💻 Technologies Used
-Technology	Purpose / Description
-PHP	Server-side scripting for backend logic
-MySQL	Relational database for storing user, event, and activity data
-HTML, CSS, JavaScript	Core technologies for building responsive web pages
-Bootstrap	UI framework for responsive layouts and components
-SweetAlert2	Enhanced alert and modal pop-ups
-Chart.js	Data visualization (e.g., dashboards)
-jQuery	DOM manipulation and AJAX support
-FontAwesome & Feather Icons	Icon sets used in UI
-XAMPP	Local development environment (Apache, MySQL, PHP)
-Git & GitHub	Version control and project hosting
-VS Code	Code editor used during development
-Postman	API endpoint testing and simulation
-PHPUnit	Backend unit testing
+| Technology                 | Purpose / Description                                  |
+| -------------------------- | ------------------------------------------------------ |
+| PHP                        | Server-side scripting for backend logic                |
+| MySQL                      | Relational database for user, event, and activity data |
+| HTML, CSS, JS              | Core technologies for building responsive pages        |
+| Bootstrap                  | Responsive UI framework                                |
+| SweetAlert2                | Enhanced alert and modal pop-ups                       |
+| Chart.js                   | Data visualization for dashboards                      |
+| jQuery                     | DOM manipulation and AJAX                              |
+| FontAwesome, Feather Icons | UI icons                                               |
+| XAMPP                      | Local dev environment (Apache, MySQL, PHP)             |
+| Git & GitHub               | Version control and hosting                            |
+| VS Code                    | Code editor                                            |
+| Postman                    | API testing and simulation                             |
+| PHPUnit                    | Backend unit testing                                   |
+
+
 💡 How to Run the System on Another Computer
 1. Clone or Download the Repository
 bash
