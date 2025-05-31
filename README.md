@@ -22,13 +22,21 @@ If you discover a security vulnerability, please report it responsibly by contac
 
 🛠 Features
 ✅ User authentication with secure login and signup
+
 ✅ Role-based access control (RBAC)
+
 ✅ CSRF protection on all forms
+
 ✅ Secure session handling with HTTP-only cookies
+
 ✅ Anti-bruteforce login lockout mechanism
+
 ✅ Admin and user dashboards for event and registration tracking
+
 ✅ Updated user interface for improved UX and accessibility
+
 ✅ Integration of SweetAlert2 for modern alert dialogs
+
 ✅ Logging and structured error handling
 
 💡 How to Run the System on Another Computer
@@ -95,16 +103,23 @@ http://localhost/your-project-folder/
 🔐 7. Default Logins (Optional)
 
 Admin: admin-123
+
 Password: admin
 
 
 📂 Link to Demo & Files
+
 📁 google drive link (https://drive.google.com/drive/folders/1bh7N87Zipe1QafnVWIqMqerR6ET2OLrJ?usp=drive_link)
 
 🧩 Folder Structure
+
 📁 Docs               # for your SRS and supporting files
+
 📁 Ui old-new         # if applicable, old vs. new UI assets
+
 📁 src                # main source code (was scr before)
+
 📄 README.md
+
 📄 Group-Name
  
