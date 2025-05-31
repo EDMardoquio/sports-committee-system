@@ -105,7 +105,6 @@ Google Drive Link (https://drive.google.com/drive/folders/1bh7N87Zipe1QafnVWIqMq
 📁 Ui old-new   # Old vs. new UI designs  
 📁 src          # Main source code  
 📄 README.md  
-📄 Group-Name
 ```
 
 ## 👥 Contributors  
