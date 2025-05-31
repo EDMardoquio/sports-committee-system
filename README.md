@@ -87,10 +87,15 @@ $pass = '';
 $dbname = 'sports_monitoring';
 
 🚀 6. Launch the System
+
 In your browser, navigate to:
+
 http://localhost/your-project-folder/
+
 🔐 7. Default Logins (Optional)
+
 Admin: admin-123
+
 Password: admin
 
 
