@@ -1,6 +1,3 @@
-# sports-committee-system
-Final_Exam
-
 # 🏀 Sports Committee System  
 **Final Exam Project**
 
