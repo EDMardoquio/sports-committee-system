@@ -68,7 +68,7 @@ If you discover a security issue, please report it responsibly by contacting the
 3. **Import the Database**  
    - Start Apache and MySQL via XAMPP  
    - Go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)  
-   - Create a database: `sports_monitoring`  
+   - Create a database: `msc_sup`  
    - Import the `.sql` file from `/docs/` or `/database/`
 
 4. **Move Project to `htdocs` Directory**  
