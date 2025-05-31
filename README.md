@@ -21,6 +21,7 @@ Secure File Uploads and QR Handling: File uploads and QR data go through content
 If you discover a security vulnerability, please report it responsibly by contacting the project maintainer. Avoid public disclosure to help us secure the platform before widespread exposure.
 
 🛠 Features
+
 ✅ User authentication with secure login and signup
 
 ✅ Role-based access control (RBAC)
