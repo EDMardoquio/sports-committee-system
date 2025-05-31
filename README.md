@@ -112,7 +112,8 @@ In your browser, navigate to:
 text
 http://localhost/your-project-folder/
 7. Default Logins (Optional)
-Admin: admin-123
+
+Admin: admin-1234
 
 Password: admin
 
