@@ -125,3 +125,13 @@ Password: admin
 
 📄 Group-Name
 
+👥 Contributors
+
+👨‍💻 Erson D. Mardoquio – Lead Developer / Final Enhancements
+
+👨‍💻 Angelo Sam Peralta Paulino – Backend & Security Integration
+
+👨‍💻 Kendall Siclon – UI Designer / Frontend Improvements
+
+👨‍💻 Wrandell Vergel de Dios – Database & Feature Testing
+
