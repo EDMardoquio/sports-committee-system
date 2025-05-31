@@ -115,9 +115,13 @@ Password: admin
 
 🧩 Folder Structure
 
-📁 Docs               # for your SRS and supporting files
-📁 Ui old-new         # if applicable, old vs. new UI assets
-📁 src                # main source code (was scr before)
+📁 Docs                    # for your SRS and supporting files
+
+📁 Ui old-new              # if applicable, old vs. new UI assets
+
+📁 src                     # main source code (was scr before)
+
 📄 README.md
+
 📄 Group-Name
 
