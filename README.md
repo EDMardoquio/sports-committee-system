@@ -33,32 +33,59 @@ If you discover a security vulnerability, please report it responsibly by contac
 
 💡 How to Run the System on Another Computer
 📁 1. Clone or Download the Repository
+
 git clone https://github.com/EDMardoquio/MSCSUP-AMS
+
 Or download and extract the ZIP file.
+
 🧱 2. Set Up Your Environment
+
 Ensure the target machine has:
+
 XAMPP (Apache, MySQL)
+
 Web browser (Chrome, Firefox, etc.)
+
 Optional: Visual Studio Code (VS Code)
+
 🛠️ 3. Import the Database
+
 Start Apache and MySQL in XAMPP
+
 Open http://localhost/phpmyadmin
+
 Create a new database: sports_monitoring
+
 Import the .sql file:
+
 Go to Import tab
+
 Upload the SQL from /docs/ or /database/
+
 Click Go
+
 📂 4. Move the Project to htdocs
+
 Place the project folder into:
+
 C:\xampp\htdocs\
+
 ⚙️ 5. Configure the Database Connection
+
 Edit this file:
+
 /src/includes/db_config.php
+
 Example:
+
 $host = 'localhost';
+
 $user = 'root';
+
 $pass = '';
+
 $dbname = 'sports_monitoring';
+
 🚀 6. Launch the System
 In your browser, navigate to:
 http://localhost/your-project-folder/
