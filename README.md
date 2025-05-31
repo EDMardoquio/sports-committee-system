@@ -112,9 +112,9 @@ http://localhost/your-project-folder/
 
 🔐 7. Default Logins (Optional)
 
-Admin: admin
+Admin: admin-123
 
-Password: admin-123
+Password: admin
 
 ⚠️ For production, always update default credentials and permissions.
 
